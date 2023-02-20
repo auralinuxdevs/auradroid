@@ -39,6 +39,8 @@ sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 chmod +x install.sh && sudo bash install.sh
 ```
 
+You can spare yourself all this pain and get it directly from our [website](https://www.auralinux.xyz)
+
 # Extending The virtual disk image.
 
 By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be (it's still under development). For now, if you want to extend it, you'll also need another linux distribution (we recommend gparted livecd).
