@@ -16,7 +16,6 @@ By default, 8 GB are assigned to the android container. Unfortunately, extending
 
 ```
 sudo qemu-img resize /usr/share/auradroid/auradroid.img +<the amount you want>.
-
 ```
 After you do this, run
 
