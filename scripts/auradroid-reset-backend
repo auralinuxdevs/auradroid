@@ -1,4 +1,0 @@
-#!/bin/bash
-cd /usr/share/auradroid
-rm -r config
-cp -r config-original ./config

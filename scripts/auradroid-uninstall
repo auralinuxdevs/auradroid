@@ -1,3 +1,0 @@
-#!/bin/bash
-pkexec /usr/share/auradroid/scripts/auradroid-uninstall-backend
-zenity --info --text "Successfully Uninstalled AuraDroid !"

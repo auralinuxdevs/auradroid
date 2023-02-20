@@ -1,4 +1,0 @@
-#!/bin/bash
-pkexec /usr/share/auradroid/scripts/auradroid-reset-backend
-
-zenity --info --text "Successfully Reset Configuration"
