@@ -4,8 +4,21 @@ The android support system for auralinux
 # How will it work
 It's basically a slightly modified android-x86 image running in a VM.
 
+# Minimum Requirements:
+Dual core CPU (preferably a core i3)
+
+4 GB of ram
+
+12 GB for the emulator (not including the OS itself)
+
+Recommended System Requirements:
+
+Quad core CPU (quad core i5 for example)
+
+8 GB RAM
+
 # Installation
-First, Install the dependencies with 
+First, Make sure that your system support virtualization and the minimum requirements
 ```
 sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 ```
