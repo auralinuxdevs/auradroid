@@ -54,4 +54,7 @@ If you want to add 2 gb for example, run sudo qemu-img resize /usr/share/auradro
 After you do this, run
 
 ```
-sudo qemu-system-x86_64 -smp 2 -m 512 -hda /usr/share/auradroid/auradroid.img -boot d -cdrom /path-to-your-livecd 
+sudo qemu-system-x86_64 -smp <cpu cores> -m <ram amount. -hda /usr/share/auradroid/auradroid.img -boot d -cdrom /path-to-your-livecd 
+
+```
+And use gparted or gnome-disks or any other partition manager to extend the disk image
