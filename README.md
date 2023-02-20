@@ -4,6 +4,11 @@ The android support system for auralinux
 # How will it work
 It's basically a slightly modified android-x86 image running in a VM.
 
+# What do you need:
+
+1- A machine that meets the minimum requirements.
+2- The [android image](https://mega.nz/file/7xVkCLZL#0HyMOTtn5zAwB8DQykJaUBOltUMXS018a84-ppodfGs)
+
 # Minimum Requirements:
 Dual core CPU (preferably a core i3)
 
@@ -18,11 +23,21 @@ Quad core CPU (quad core i5 for example)
 8 GB RAM
 
 # Installation
-First, Make sure that your system support virtualization and the minimum requirements
+1- Make sure that your system supports virtualization and meets the minimum requirements
 ```
 sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 ```
-Then, make the install.sh executable by running ``` chmod +x install.sh``` the install it with ```sudo bash install.sh```. Don't use any other shell (like fish or zsh).
+2- Unpack the android image using:
+ ```
+ unsquashfs auradroid.img.squashfs
+ ```
+3- Move the extracted .img file to the "files" dir.
+
+4- Install it !
+
+```
+chmod +x install.sh && sudo bash install.sh
+```
 
 # Extending The virtual disk image.
 
