@@ -1,4 +1,4 @@
-# auradroid
+# Auradroid
 The android support system for auralinux
 
 # How will it work
@@ -13,7 +13,7 @@ Then, make the install.sh executable by running ``` chmod +x install.sh``` the i
 
 # Extending The virtual disk image.
 
-By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be. To extend it, you'll also need another linux distribution (we recommend gparted livecd).
+By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be (it's still under development). For now, if you want to extend it, you'll also need another linux distribution (we recommend gparted livecd).
 
 ```
 sudo qemu-img resize /usr/share/auradroid/auradroid.img +<the amount you want>g.
@@ -22,4 +22,4 @@ If you want to add 2 gb for example, run sudo qemu-img resize /usr/share/auradro
 After you do this, run
 
 ```
-qemu-system-x86_64 -cpu host -smp 2 -m 512 -hda /usr/share/auradroid/auradroid.img -boot d -cdrom /path-to-your-livecd 
+sudo qemu-system-x86_64 -cpu host -smp 2 -m 512 -hda /usr/share/auradroid/auradroid.img -boot d -cdrom /path-to-your-livecd 
