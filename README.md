@@ -31,9 +31,11 @@ sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
  ```
  unsquashfs auradroid.img.squashfs
  ```
-3- Move the extracted .img file to the "files" dir.
+3- Run ``` git clone https://github.com/auralinuxdevs/auradroid.git ```
 
-4- Install it !
+4- Move the extracted .img file to the "files" dir.
+
+5- Install it !
 
 ```
 chmod +x install.sh && sudo bash install.sh
