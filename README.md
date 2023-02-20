@@ -16,7 +16,8 @@ Then, make the install.sh executable by running ``` chmod +x install.sh``` the i
 By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be. To extend it, you'll also need another linux distribution (we recommend gparted livecd).
 
 ```
-sudo qemu-img resize /usr/share/auradroid/auradroid.img +<the amount you want>.
+sudo qemu-img resize /usr/share/auradroid/auradroid.img +<the amount you want>g.
+If you want to add 2 gb for example, run sudo qemu-img resize /usr/share/auradroid/auradroid.img +2g
 ```
 After you do this, run
 
