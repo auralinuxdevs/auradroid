@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/share/auradroid/scripts
+bash auradroid-$(zenity --list --title "AuraDroid Configuration Tool" --text "Choose an option and click OK" --radiolist --column "Option" --column " " FALSE "ram" FALSE "cpu" FALSE "uninstall" FALSE "reset")
