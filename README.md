@@ -9,6 +9,7 @@ First, Install the dependencies with
 ```
 sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 ```
+Then, make the install.sh executable by running ``` chmod +x install.sh``` the install it with ```sudo bash install.sh```. Don't use any other shell (like fish or zsh).
 
 # Extending The virtual disk image.
 
