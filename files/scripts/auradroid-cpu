@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/
+
+rm -r cpu && touch cpu
+
+echo $(zenity --entry --title "CPU Core Allocation" --text "Enter The Number Of Cores. Default is 4") >> cpu
+pkexec mv ~/cpu /usr/share/auradroid/config

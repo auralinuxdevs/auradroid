@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -r /usr/share/auradroid
+rm -r /usr/share/applications/auradroid*
+rm -r /usr/bin/auradroid*
