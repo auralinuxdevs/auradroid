@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo qemu-system-x86_64 --name "AuraDroid" -display gtk,zoom-to-fit=on -machine type=q35,accel=kvm -cpu host -smp $(cat /usr/share/auradroid/config/cpu) -m $(cat /usr/share/auradroid/config/ram) -hda /usr/share/auradroid/auradroid.img -boot d -soundhw sb16 -device VGA,vgamem_mb=$(cat /usr/share/auradroid/config/vram)
+sudo qemu-system-x86_64 --name "AuraDroid" -display gtk,zoom-to-fit=on -machine type=q35,accel=kvm -smp $(cat /usr/share/auradroid/config/cpu) -m $(cat /usr/share/auradroid/config/ram) -hda /usr/share/auradroid/auradroid.img -boot d -soundhw sb16 -device VGA,vgamem_mb=$(cat /usr/share/auradroid/config/vram)
