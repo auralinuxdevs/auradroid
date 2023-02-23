@@ -57,4 +57,4 @@ After you do this, run
 sudo qemu-system-x86_64 -smp <cpu cores> -m <ram amount. -hda /usr/share/auradroid/auradroid.img -boot d -cdrom /path-to-your-livecd 
 
 ```
-And use gparted or gnome-disks or any other partition manager to extend the disk image
+And use gparted or gnome-disks or any other partition manager to extend the disk image.
