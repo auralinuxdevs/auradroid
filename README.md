@@ -41,7 +41,7 @@ sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 chmod +x install.sh && sudo bash install.sh
 ```
 
-You can spare yourself all this pain and get it directly from our [website](https://www.auralinux.xyz)
+You can spare yourself all this pain and get it directly from our [website](https://www.auralinux.xyz/auradroid)
 
 # Extending The virtual disk image.
 
