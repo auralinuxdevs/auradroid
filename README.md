@@ -35,7 +35,7 @@ sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 
 4- Move the extracted .img file to the "files" dir.
 
-5- Install it !
+5- Install it using:
 
 ```
 chmod +x install.sh && sudo bash install.sh
