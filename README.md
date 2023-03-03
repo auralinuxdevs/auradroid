@@ -6,7 +6,7 @@ It's basically a slightly modified android-x86 image running in a VM.
 
 # What do you need:
 
-1- A machine that meets the [minimum requirements](https://auralinux.xyz/auradroid).
+1- A machine that meets the [minimum requirements](https://www.auralinux.xyz/auradroid).
 
 
 2- A Linux distro that uses ```apt-get```
