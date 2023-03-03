@@ -25,6 +25,9 @@ Quad core CPU (quad core i5 for example)
 # Installation
 
 There are two ways to install auradroid:
+
+
+
 A- Get it from our [website](auraLinux.xyz/auradroid)
 
 B- You can follow the instructions below:
