@@ -23,6 +23,11 @@ Quad core CPU (quad core i5 for example)
 8 GB RAM
 
 # Installation
+
+There are two ways to install auradroid:
+A- Get it from our [website](auraLinux.xyz/auradroid)
+
+B- You can follow the instructions below:
 1- Make sure that your system supports virtualization and meets the minimum requirements
 ```
 sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
@@ -41,7 +46,7 @@ sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
 chmod +x install.sh && sudo bash install.sh
 ```
 
-You can spare yourself all this pain and get it directly from our [website](https://www.auralinux.xyz/auradroid)
+
 
 # Extending The virtual disk image.
 
