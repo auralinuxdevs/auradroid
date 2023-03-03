@@ -6,21 +6,10 @@ It's basically a slightly modified android-x86 image running in a VM.
 
 # What do you need:
 
-1- A machine that meets the minimum requirements.
-2- The [android image](https://mega.nz/file/7xVkCLZL#0HyMOTtn5zAwB8DQykJaUBOltUMXS018a84-ppodfGs)
+1- A machine that meets the [minimum requirements](auralinux.xyz/auradroid).
 
-# Minimum Requirements:
-Dual core CPU (preferably a core i3)
 
-4 GB of ram
-
-12 GB for the emulator (not including the OS itself)
-
-Recommended System Requirements:
-
-Quad core CPU (quad core i5 for example)
-
-8 GB RAM
+2- A Linux distro that uses ```apt-get```
 
 # Installation
 
