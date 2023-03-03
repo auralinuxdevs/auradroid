@@ -24,31 +24,7 @@ Quad core CPU (quad core i5 for example)
 
 # Installation
 
-There are two ways to install auradroid:
-
-
-
-A- Get it from our [website](auraLinux.xyz/auradroid)
-
-B- You can follow the instructions below:
-1- Make sure that your system supports virtualization and meets the minimum requirements
-```
-sudo apt update && sudo apt install qemu-system-x86 squashfs-tools xorriso
-```
-2- Unpack the android image using:
- ```
- unsquashfs auradroid.img.squashfs
- ```
-3- Run ``` git clone https://github.com/auralinuxdevs/auradroid.git ```
-
-4- Move the extracted .img file to the "files" dir.
-
-5- Install it using:
-
-```
-chmod +x install.sh && sudo bash install.sh
-```
-
+Get it from our [website](auraLinux.xyz/auradroid)
 
 
 # Extending The virtual disk image.
