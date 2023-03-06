@@ -18,7 +18,7 @@ Get it from our [website](https://www.auraLinux.xyz/auradroid)
 
 # Extending The virtual disk image.
 
-By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be (it's still under development). For now, if you want to extend it, you'll also need another linux distribution (we recommend gparted livecd).
+By default, 8 GB are assigned to the android container. Unfortunately, extending it at the moment isn't as straight forward as it should be (we're still working on that). For now, if you want to extend it, you'll also need another linux distribution (we recommend gparted livecd).
 
 ```
 sudo qemu-img resize /usr/share/auradroid/auradroid.img +<the amount you want>g.
